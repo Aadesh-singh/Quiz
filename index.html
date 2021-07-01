@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" >
+    <title>quiz Time</title>
+</head>
+<body>
+    <section id="cont" class="display">
+        <h1>To start Quiz press start</h1>
+        <button onclick="startQuiz()">StartQuiz</button>
+    </section>
+    <section id="quiz-container" class="hidden">
+        <div id="question-heading">this is question</div>
+        <div id="ans-section">
+            <div class="ques">
+                <input type="radio" class="ans" name="quiz" id="a" >
+                    <span  id="optionA">th</span>
+                </input>
+            </div>
+            <div class="ques">
+                <input type="radio" class="ans" name="quiz" id="b" >
+                    <span  id="optionB">th</span>
+                </input>
+            </div>
+            <div class="ques">
+                <input type="radio" class="ans" name="quiz" id="c" >
+                    <span  id="optionC">th</span>
+                </input>
+            </div>
+            <div class="ques">
+                <input type="radio" class="ans" name="quiz" id="d" >
+                    <span  id="optionD">th</span>
+                </input>
+            </div>
+            
+        </div>
+        <div id="submit-button">
+            <button type="submit">submit</button>
+        </div>
+    </section>
+    <script src="script.js" ></script>
+</body>
+</html>
